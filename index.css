@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* background: url('C:\\Users\\avina\\Desktop\\Website\\mayavi\\src\\images\\14.webp') no-repeat center center/cover; */
+}
+
+.navbar{
+    background-image: linear-gradient(rgb(116, 18, 18),rgb(192, 38, 38),rgb(255, 166, 0));
+}
+.navbar-2{
+        background-color: brown;
+}
+.navbar-brand{
+    font-weight: 900;
+    text-shadow: 3px 3px 7px rgb(39, 209, 224);
+    color: rgb(254, 254, 254) !important;
+    font-size: 2.5rem !important;
+    
+}
+.navbar-img{
+    width: 60px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+.navbar-nav{
+    width: 68%;
+    margin: auto;
+}
+.nav-link{
+    
+    font-size: 1.3rem ;
+    text-transform: capitalize ;
+    margin-right: 34px;
+    color: rgb(254, 254, 254) !important;
+    font-weight: 300;
+
+}
+.menu_active{
+    font-weight: bold;
+    background-color: rgb(14, 177, 236);
+    border-radius: 20px;
+    /* color: rgb(15, 125, 242) !important; */
+}
+.nav-link:hover{
+    color:rgb(217, 255, 0) !important;
+    /* font-weight: 600; */
+}
+@media  (max-width:991px) {
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+    .menu_active{
+        font-weight: bold;
+        border-bottom: 1px solid rgb(81, 45, 45);
+    }
+}
+
+
+/* section{
+    background: url('C:\\Users\\avina\\Desktop\\Website\\mayavi\\src\\images\\15.webp') no-repeat center center/cover;
+} */
+
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+    
+}
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header .brand-name{
+    color: rgb(40, 205, 246);
+}
+#header h2{
+    color: rgb(26, 15, 1);
+    font-size: 24px;
+}
+@media (max-width:991px) {
+    #header{
+        height: 80vh;
+        text-align: center;
+    }
+    #header .header-img{
+        text-align: center;
+    }
+    #header .header-img img{
+        width: 60%;
+    }
+}
+
+@media (max-width:768px) {
+    #header{
+        margin-top: 20px;
+    }
+    #header h1{
+        font-size: 28px;
+    }
+    #header h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #header .header-img img{
+        width: 70%;
+    }
+}
+
+
+#header .btn-get-started{
+    border: 2px solid rgb(23, 121, 240);
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 0.5s;
+    color: rgb(51, 22, 241);
+}
+#header .btn-get-started:hover{
+    background-color: rgb(56, 83, 142);
+    color:white ;
+}
+.header-img{
+    text-align: right;
+    
+}
+.img-fluid{
+    width: 400px;
+    
+    
+    
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }    
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+} 
+
+
+
